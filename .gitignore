@@ -1,0 +1,14 @@
+# Configuração por aparelho (servidor, nome do host, tokens)
+config/agent.json
+*.token
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Runtime do agente
+logs/
+*.log
+queue/
